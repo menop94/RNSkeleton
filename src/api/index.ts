@@ -1,7 +1,7 @@
 import axios from 'axios';
+import Config from 'react-native-config';
 
-export const API_URL = 'https://api-test-sk.herokuapp.com';
-export const api = axios.create({ baseURL: API_URL });
+export const api = axios.create({ baseURL: Config.API_URL });
 
 export const setHeaderToken = (token: string) => {
   api.interceptors.request.use(function (config) {

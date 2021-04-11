@@ -1,5 +1,6 @@
 # RNSkeleton
 
+Create a copy of the '.env.copy' file, rename it as '.env' and complete it with your configuration
 Run `npm install && cd ios && pod install && cd ..`
 Start the packager `npm start`
 
